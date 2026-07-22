@@ -22,15 +22,15 @@ Traditional machine learning algorithms, exploratory data analysis, and predicti
 
 **Languages:**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,bash,cpp" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=python,sql,bash," alt="Languages & Databases" />
 </p>
 
 **AI, Machine Learning & Computer Vision:**
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,scikitlearn,pandas,numpy" alt="AI & ML" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,scikitlearn,huggingface,pandas,numpy" alt="AI & ML" />
 </p>
 
 **Tools & Environment:**
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,jupyter,linux" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,linux" alt="Tools" />
 </p>
