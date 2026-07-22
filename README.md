@@ -20,9 +20,10 @@ Traditional machine learning algorithms, exploratory data analysis, and predicti
 
 ### 🛠️ Tech Stack & Tools
 
-**Languages:**
+**Languages & Databases:**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,postgres,bash," alt="Languages & Databases" />
+  <img src="https://skillicons.dev/icons?i=python,bash" align="center" />
+  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" align="center" />
 </p>
 
 **AI, Machine Learning & Computer Vision:**
