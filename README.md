@@ -6,7 +6,7 @@ Here you can find a selection of my most notable projects, organized by my core 
 
 ### 🧠 Deep Learning
 Projects focused on deep neural networks, natural language processing, and advanced architectures.
-* [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Natural Language Processing project focused on detecting semantic similarity across multiple languages (Kaggle).
+* [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Multilingual Natural Language Inference (NLI) model to classify sentence pair relationships using Transformers (Kaggle).
 
 ### 👁️ Computer Vision
 Models and applications oriented toward image and video processing, analysis, and understanding.
