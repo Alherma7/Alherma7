@@ -22,7 +22,7 @@ Traditional machine learning algorithms, exploratory data analysis, and predicti
 
 **Languages:**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,sql,bash," alt="Languages & Databases" />
+  <img src="https://skillicons.dev/icons?i=python,postgres,bash," alt="Languages & Databases" />
 </p>
 
 **AI, Machine Learning & Computer Vision:**
