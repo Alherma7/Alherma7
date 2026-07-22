@@ -7,6 +7,7 @@ Here you can find a selection of my most notable projects, organized by my core 
 ### 🧠 Deep Learning
 Projects focused on deep neural networks, natural language processing, and advanced architectures.
 * [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Multilingual Natural Language Inference (NLI) model to classify sentence pair relationships using Transformers (Kaggle).
+* [trumpet-transcription](https://github.com/Alherma7/trumpet-transcription) - Fine-tuning Spotify's Basic Pitch model on real trumpet audio to transcribe recordings into MIDI and sheet music.
 
 ### 👁️ Computer Vision
 Models and applications oriented toward image and video processing, analysis, and understanding.
