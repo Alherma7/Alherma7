@@ -12,6 +12,7 @@ Projects focused on deep neural networks, natural language processing, and advan
 ### 👁️ Computer Vision
 Models and applications oriented toward image and video processing, analysis, and understanding.
 * [SpikeYOLO-jellyfish](https://github.com/Alherma7/SpikeYOLO-jellyfish) - Object detection model applied to marine life and jellyfish tracking.
+* [LOCS_Turtle_Face_Detection](https://github.com/Alherma7/LOCS_Turtle_Face_Detection) - Bounding-box detection of sea turtle facial scales for the Zindi "Local Ocean Conservation" challenge, using PyTorch and a ConvNeXt backbone.
 
 ### 📊 Machine Learning & Data Analysis
 Traditional machine learning algorithms, exploratory data analysis, and predictive models.
