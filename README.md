@@ -17,6 +17,7 @@ Models and applications oriented toward image and video processing, analysis, an
 ### 📊 Machine Learning & Data Analysis
 Traditional machine learning algorithms, exploratory data analysis, and predictive models.
 * [claude-usage-analytics](https://github.com/Alherma7/claude-usage-analytics) - Analytics tool for tracking and visualizing usage data.
+* [Financial_Stress_Prediction](https://github.com/Alherma7/Financial_Stress_Prediction) - LightGBM model predicting mobile money customer liquidity stress from 6-month transaction history, with trend feature engineering, stratified K-Fold CV, and probability calibration (Zindi challenge).
 
 ---
 
