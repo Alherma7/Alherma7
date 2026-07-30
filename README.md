@@ -19,6 +19,10 @@ Traditional machine learning algorithms, exploratory data analysis, and predicti
 * [claude-usage-analytics](https://github.com/Alherma7/claude-usage-analytics) - Analytics tool for tracking and visualizing usage data.
 * [Financial_Stress_Prediction](https://github.com/Alherma7/Financial_Stress_Prediction) - LightGBM model predicting mobile money customer liquidity stress from 6-month transaction history, with trend feature engineering, stratified K-Fold CV, and probability calibration (Zindi challenge).
 
+### 🎨 Data Visualization
+Projects turning real datasets into visual, art-inspired representations.
+* [moma-data-art](https://github.com/Alherma7/moma-data-art) - MoMA collection data rendered as charts styled after the museum's own paintings (Mondrian, Picasso, Matisse), paired with a from-scratch Python reimplementation of the Geometrize image-to-polygon technique.
+
 ---
 
 ### 🛠️ Tech Stack & Tools
