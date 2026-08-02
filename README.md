@@ -39,5 +39,5 @@ Projects turning real datasets into visual, art-inspired representations.
 
 **Tools & Environment:**
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,linux" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode" alt="Tools" />
 </p>
