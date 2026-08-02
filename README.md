@@ -29,7 +29,7 @@ Projects turning real datasets into visual, art-inspired representations.
 
 **Languages & Databases:**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,postgres,bash" alt="Languages & Databases" />
+  <img src="https://skillicons.dev/icons?i=python,postgres" alt="Languages & Databases" />
 </p>
 
 **AI, Machine Learning & Computer Vision:**
