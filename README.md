@@ -7,6 +7,7 @@ Here you can find a selection of my most notable projects, organized by my core 
 ### 🧠 Deep Learning
 Projects focused on deep neural networks, natural language processing, and advanced architectures.
 * [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Multilingual Natural Language Inference (NLI) model to classify sentence pair relationships using Transformers (Kaggle).
+* [R.O.A.D.-Barbados-Historic-Handwriting](https://github.com/Alherma7/R.O.A.D.-Barbados-Historic-Handwriting) - Handwritten text transcription of 17th-century Barbados legal documents for the Zindi "R.O.A.D." challenge, comparing a from-scratch CRNN+CTC baseline against fine-tuned pretrained OCR/VLM models.
 
 
 ### 👁️ Computer Vision
