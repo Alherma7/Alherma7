@@ -24,6 +24,10 @@ Traditional machine learning algorithms, exploratory data analysis, and predicti
 Projects turning real datasets into visual, art-inspired representations.
 * [moma-data-art](https://github.com/Alherma7/moma-data-art) - MoMA collection data rendered as charts styled after the museum's own paintings (Mondrian, Picasso, Matisse), paired with a from-scratch Python reimplementation of the Geometrize image-to-polygon technique.
 
+### 🤖 Agents & Simulation
+Autonomous agents/policies that act inside a simulated environment, evaluated through gameplay rather than a fixed dataset.
+* [AI-agent-Kaggriculture](https://github.com/Alherma7/AI-agent-Kaggriculture) - Turn-based farming economy agent for Kaggle's "Kaggriculture" simulation competition: heuristic/planning-based bot managing crops, livestock, and a dynamic market against an opponent agent.
+
 ---
 
 ### 🛠️ Tech Stack & Tools
