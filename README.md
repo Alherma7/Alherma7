@@ -22,7 +22,7 @@ Traditional machine learning algorithms, exploratory data analysis, and predicti
 
 ### 🎨 Data Visualization
 Projects turning real datasets into visual, art-inspired representations.
-* [moma-data-art](https://github.com/Alherma7/moma-data-art) - MoMA collection data rendered as charts styled after the museum's own paintings (Mondrian, Picasso, Matisse), paired with a from-scratch Python reimplementation of the Geometrize image-to-polygon technique.
+* [moma-data-art](https://github.com/Alherma7/moma-data-art) - MoMA collection data rendered as charts styled after the museum's own paintings (Mondrian, Picasso, Matisse), where each painting's own hand-digitized geometry becomes the container for the real data, revealed on hover.
 
 ### 🤖 Agents & Simulation
 Autonomous agents/policies that act inside a simulated environment, evaluated through gameplay rather than a fixed dataset.
