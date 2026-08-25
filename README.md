@@ -20,6 +20,7 @@ Models and applications oriented toward image and video processing, analysis, an
 Traditional machine learning algorithms, exploratory data analysis, and predictive models.
 * [claude-usage-analytics](https://github.com/Alherma7/claude-usage-analytics) - Analytics tool for tracking and visualizing usage data.
 * [Financial_Stress_Prediction](https://github.com/Alherma7/Financial_Stress_Prediction) - LightGBM model predicting mobile money customer liquidity stress from 6-month transaction history, with trend feature engineering, stratified K-Fold CV, and probability calibration (Zindi challenge).
+* [Climate_Risk_Health](https://github.com/Alherma7/Climate_Risk_Health) - Predicting whether a recorded death is climate-sensitive from mortality records and historical climate/environmental features (CHIRPS rainfall, ERA5 temperature, MODIS NDVI, SRTM elevation/slope), with spatially grouped cross-validation (Zindi challenge).
 
 ### 🎨 Data Visualization
 Projects turning real datasets into visual, art-inspired representations.
