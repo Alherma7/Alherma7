@@ -7,21 +7,22 @@ Here you can find a selection of my most notable projects, organized by my core 
 ### 🧠 Deep Learning
 Projects focused on deep neural networks, natural language processing, and advanced architectures.
 * [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Multilingual Natural Language Inference (NLI) model to classify sentence pair relationships using Transformers (Kaggle).
-* [R.O.A.D.-Barbados-Historic-Handwriting](https://github.com/Alherma7/R.O.A.D.-Barbados-Historic-Handwriting) - Handwritten text transcription of 17th-century Barbados legal documents for the Zindi "R.O.A.D." challenge, comparing a from-scratch CRNN+CTC baseline against fine-tuned pretrained OCR/VLM models.
-* [RSNA_Knee_Abnormality_Detection](https://github.com/Alherma7/RSNA_Knee_Abnormality_Detection) - Multi-finding knee MRI classification (12 findings) for the RSNA Kaggle competition, combining a 2.5D CNN (EfficientNet-B0) trained on a small gold-labeled subset with weak supervision derived from multilingual radiology reports via a Snorkel-style labeling function.
+* [R.O.A.D.-Barbados-Historic-Handwriting](https://github.com/Alherma7/R.O.A.D.-Barbados-Historic-Handwriting) - Handwritten text transcription of 17th-century Barbados legal documents for the Zindi "R.O.A.D." challenge; final pipeline is a 3-model deep-ensemble CRNN + CTC beam search + character n-gram language model (leaderboard score 0.845943, project closed).
+* [RSNA_Knee_Abnormality_Detection](https://github.com/Alherma7/RSNA_Knee_Abnormality_Detection) - Multi-finding knee MRI classification (12 findings) for the RSNA Kaggle competition: a DINOv2 slot-attention model trained on a small gold-labeled subset plus weak labels mined from free-text radiology reports (macro ROC-AUC 0.7512, pooled 4-fold CV).
 
 
 ### 👁️ Computer Vision
 Models and applications oriented toward image and video processing, analysis, and understanding.
-* [SpikeYOLO-jellyfish](https://github.com/Alherma7/SpikeYOLO-jellyfish) - Object detection model applied to marine life and jellyfish tracking.
+* [SpikeYOLO-jellyfish](https://github.com/Alherma7/SpikeYOLO-jellyfish) - Fork of BICLab's SpikeYOLO (spiking neural network object detector) adapted to jellyfish species detection on RGB video, using spike-rate/delta-modulation encoding via snntorch.
 * [LOCS_Turtle_Face_Detection](https://github.com/Alherma7/LOCS_Turtle_Face_Detection) - Bounding-box detection of sea turtle facial scales for the Zindi "Local Ocean Conservation" challenge, using PyTorch and a ConvNeXt backbone.
 
 ### 📊 Machine Learning & Data Analysis
 Traditional machine learning algorithms, exploratory data analysis, and predictive models.
-* [claude-usage-analytics](https://github.com/Alherma7/claude-usage-analytics) - Analytics tool for tracking and visualizing usage data.
+* [claude-usage-analytics](https://github.com/Alherma7/claude-usage-analytics) - Analytics platform for Claude Code telemetry: ingests raw JSONL event logs into a SQLite star schema and serves a multi-page Streamlit dashboard for executive and engineering-lead audiences (technical-interview take-home).
 * [Financial_Stress_Prediction](https://github.com/Alherma7/Financial_Stress_Prediction) - LightGBM model predicting mobile money customer liquidity stress from 6-month transaction history, with trend feature engineering, stratified K-Fold CV, and probability calibration (Zindi challenge).
 * [Climate_Risk_Health](https://github.com/Alherma7/Climate_Risk_Health) - Predicting whether a recorded death is climate-sensitive from mortality records and historical climate/environmental features (CHIRPS rainfall, ERA5 temperature, MODIS NDVI, SRTM elevation/slope), with spatially grouped cross-validation (Zindi challenge).
 * [Tanzania_Tourism_Classification](https://github.com/Alherma7/Tanzania_Tourism_Classification) - Predicting a tourist's expenditure cost category (6 classes) from Tanzania NBS survey data with a tuned HistGradientBoosting model, Stratified 5-fold CV, and randomized hyperparameter search (Zindi/AI4D challenge, leaderboard Log Loss 1.0700).
+* [Step_Ahead_Drought](https://github.com/Alherma7/Step_Ahead_Drought) - Forecasting next-month global Total Water Storage (GRACE-derived, 1° grid) from TWS/SPEI/soil-moisture history, with mask-aware validation, spatial-neighbourhood and temporal-anchor feature engineering, and a HistGradientBoosting model with native missing-value handling (Zindi/ITU challenge, leaderboard RMSE 0.7538, in progress).
 
 ### 🎨 Data Visualization
 Projects turning real datasets into visual, art-inspired representations.
