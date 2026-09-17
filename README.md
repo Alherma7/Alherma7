@@ -9,6 +9,7 @@ Projects focused on deep neural networks, natural language processing, and advan
 * [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Multilingual Natural Language Inference (NLI) model to classify sentence pair relationships using Transformers (Kaggle).
 * [R.O.A.D.-Barbados-Historic-Handwriting](https://github.com/Alherma7/R.O.A.D.-Barbados-Historic-Handwriting) - Handwritten text transcription of 17th-century Barbados legal documents for the Zindi "R.O.A.D." challenge; final pipeline is a 3-model deep-ensemble CRNN + CTC beam search + character n-gram language model (leaderboard score 0.845943, project closed).
 * [RSNA_Knee_Abnormality_Detection](https://github.com/Alherma7/RSNA_Knee_Abnormality_Detection) - Multi-finding knee MRI classification (12 findings) for the RSNA Kaggle competition: a DINOv2 slot-attention model trained on a small gold-labeled subset plus weak labels mined from free-text radiology reports (macro ROC-AUC 0.7512, pooled 4-fold CV).
+* [DaT_Parkinson](https://github.com/Alherma7/DaT_Parkinson) - Dopamine-transporter SPECT scan classification (normal/abnormal) for DrivenData's DaT Parkinson's Challenge: a per-subject-centered 3D CNN blended with a ComBat-harmonized classical baseline, calibrated in logit space (final leaderboard log loss 0.3436, AUROC 0.9226, rank #160/1009). [Project write-up](https://alherma7.github.io/DaT_Parkinson/) with the full "what worked / what didn't" analysis.
 
 
 ### 👁️ Computer Vision
