@@ -6,16 +6,16 @@ Here you can find a selection of my most notable projects, organized by my core 
 
 ### 🧠 Deep Learning
 Projects focused on deep neural networks, natural language processing, and advanced architectures.
-* [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Multilingual Natural Language Inference (NLI) model to classify sentence pair relationships using Transformers (Kaggle).
+* [-contradictory-my-dear-watson](https://github.com/Alherma7/-contradictory-my-dear-watson) - Multilingual Natural Language Inference (NLI) for 100+ languages with Transformers (Kaggle): from a multilingual BERT baseline (~66% val accuracy) to a fine-tuned `xlm-roberta-large-xnli` (93.0% val, 0.926 public leaderboard accuracy).
 * [R.O.A.D.-Barbados-Historic-Handwriting](https://github.com/Alherma7/R.O.A.D.-Barbados-Historic-Handwriting) - Handwritten text transcription of 17th-century Barbados legal documents for the Zindi "R.O.A.D." challenge; final pipeline is a 3-model deep-ensemble CRNN + CTC beam search + character n-gram language model (leaderboard score 0.845943, project closed).
-* [RSNA_Knee_Abnormality_Detection](https://github.com/Alherma7/RSNA_Knee_Abnormality_Detection) - Multi-finding knee MRI classification (12 findings) for the RSNA Kaggle competition: a DINOv2 slot-attention model trained on a small gold-labeled subset plus weak labels mined from free-text radiology reports (macro ROC-AUC 0.7512, pooled 4-fold CV).
+* [RSNA_Knee_Abnormality_Detection](https://github.com/Alherma7/RSNA_Knee_Abnormality_Detection) - Multi-finding knee MRI classification (12 findings) for the RSNA Kaggle competition: a fine-tuned DINOv2-small with per-finding attention over 18 MRI series slices, trained on 58 expert-labeled studies plus ~4,350 studies soft-labeled from radiology reports by a public LLM label table (final private macro ROC-AUC 0.837, rank #4958/6,425). [Project write-up](https://alherma7.github.io/RSNA_Knee_Abnormality_Detection/) comparing it with the winning solutions: labels and input resolution were the gap.
 * [DaT_Parkinson](https://github.com/Alherma7/DaT_Parkinson) - Dopamine-transporter SPECT scan classification (normal/abnormal) for DrivenData's DaT Parkinson's Challenge: a per-subject-centered 3D CNN blended with a ComBat-harmonized classical baseline, calibrated in logit space (final leaderboard log loss 0.3436, AUROC 0.9226, rank #160/1009). [Project write-up](https://alherma7.github.io/DaT_Parkinson/) with the full "what worked / what didn't" analysis.
 
 
 ### 👁️ Computer Vision
 Models and applications oriented toward image and video processing, analysis, and understanding.
 * [SpikeYOLO-jellyfish](https://github.com/Alherma7/SpikeYOLO-jellyfish) - Fork of BICLab's SpikeYOLO (spiking neural network object detector) adapted to jellyfish species detection on RGB video, using spike-rate/delta-modulation encoding via snntorch.
-* [LOCS_Turtle_Face_Detection](https://github.com/Alherma7/LOCS_Turtle_Face_Detection) - Bounding-box detection of sea turtle facial scales for the Zindi "Local Ocean Conservation" challenge, using PyTorch and a ConvNeXt backbone.
+* [LOCS_Turtle_Face_Detection](https://github.com/Alherma7/LOCS_Turtle_Face_Detection) - Bounding-box detection of sea turtle facial scales for the Zindi "Local Ocean Conservation" challenge: a ConvNeXt-Tiny regressor trained with GIoU loss at 512 then 1024 px (public leaderboard IoU 0.894).
 
 ### 📊 Machine Learning & Data Analysis
 Traditional machine learning algorithms, exploratory data analysis, and predictive models.
@@ -31,7 +31,7 @@ Projects turning real datasets into visual, art-inspired representations.
 
 ### 🤖 Agents & Simulation
 Autonomous agents/policies that act inside a simulated environment, evaluated through gameplay rather than a fixed dataset.
-* [AI-agent-Kaggriculture](https://github.com/Alherma7/AI-agent-Kaggriculture) - Turn-based farming economy agent for Kaggle's "Kaggriculture" simulation competition: heuristic/planning-based bot managing crops, livestock, and a dynamic market against an opponent agent.
+* [AI-agent-Kaggriculture](https://github.com/Alherma7/AI-agent-Kaggriculture) - Turn-based farming economy agent for Kaggle's "Kaggriculture" simulation competition: a hand-coded rule-based bot managing crops, livestock, hired hands and a shared market against an opponent agent (final rank #6448/10,148). [Project write-up](https://alherma7.github.io/AI-agent-Kaggriculture/) on why the winners used imitation learning and RL instead.
 
 ---
 
